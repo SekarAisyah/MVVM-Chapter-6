@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/titleUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Sekar Risma Aisyah" />
+
+        <TextView
+            android:id="@+id/umurUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleUser"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="30 April 2023" />
+
+        <TextView
+            android:id="@+id/alamatUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/umurUser"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Jalan HTI Desa Lubuk Empelas" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
